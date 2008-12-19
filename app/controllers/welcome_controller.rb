@@ -3,8 +3,8 @@ class WelcomeController < ApplicationController
     render :text => "Hello<br />#{Time.now}"
   end
 
-  def sleep
-    sleep(params[:time] || 2)
+  def wait
+    sleep(params[:t] ? params[:t].to_i : 2)
     render :text => 'done'
   end
 end
