@@ -1,0 +1,6 @@
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2008-12-18 16:34:22) [GET]
+  Session ID: 293b1588fa7d9d8e100c37b657e16e37
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Completed in 0.00127 (785 reqs/sec) | Rendering: 0.00007 (5%) | 200 OK [http://localhost/]
